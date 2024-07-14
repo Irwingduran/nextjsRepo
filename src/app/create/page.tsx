@@ -89,7 +89,7 @@ function CreatePage() {
     <>
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)}>
-          <div className="bg-yellow-50 p-10 rounded-md">
+          <div className="p-10 rounded-md">
             <h2 className="text-3xl font-bold mb-2">Create your organization</h2>
             <p className="text-gray-700 mb-6">
               Name and define your DAO parameters so grantees know they are joining the right organization.
